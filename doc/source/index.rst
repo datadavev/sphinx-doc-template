@@ -4,25 +4,14 @@
 Sphinx Documentation Template
 =============================
 
-A sphinx documentation template.
+A sphinx documentation template using a modified version of the sphinx-bootstrap_ theme and including support for diagrams using plantweb_.
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-
-
-.. uml::
-   :align: left
-
-   skinparam monochrome true
-
-   Alice -> Bob: Authentication Request
-   Bob --> Alice: Authentication Response
-
-   Alice -> Bob: Another authentication Request
-   Alice <-- Bob: another authentication Response
-
+   setup
+   diagrams
 
 
 Indices and tables
@@ -30,3 +19,7 @@ Indices and tables
 
 * :ref:`genindex`
 * :ref:`search`
+
+
+.. _sphinx-bootstrap: https://ryan-roemer.github.io/sphinx-bootstrap-theme/
+.. _plantweb: https://plantweb.readthedocs.io/index.html
