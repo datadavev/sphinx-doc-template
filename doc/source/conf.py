@@ -57,6 +57,9 @@ master_doc = 'index'
 project = 'sphinx-doc-template'
 copyright = '2017, Dave Vieglais'
 author = 'Dave Vieglais'
+html_context = {
+  'github_project_url':'https://github.com/datadavev/sphinx-doc-template',
+  }
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -136,7 +139,7 @@ plantuml_output_format = "svg"
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'MyDatadoc'
+htmlhelp_basename = 'sphinx-doc-tempalte'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -163,7 +166,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'MyData.tex', 'MyData Documentation',
+    (master_doc, 'sphinx-doc-template.tex', 'Sphinx-doc-template Documentation',
      'Dave Vieglais', 'manual'),
 ]
 
@@ -173,7 +176,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'mydata', 'MyData Documentation',
+    (master_doc, 'sphinx-doc-template', 'Sphinx-doc-template Documentation',
      [author], 1)
 ]
 
@@ -184,8 +187,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'MyData', 'MyData Documentation',
-     author, 'MyData', 'One line description of project.',
+    (master_doc, 'sphinx-doc-template', 'sphinx-doc-template',
+     author, 'sphinx-doc-template', 'A template for sphinx documentation.',
      'Miscellaneous'),
 ]
 
