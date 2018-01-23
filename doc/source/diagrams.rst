@@ -16,6 +16,10 @@ UML using plantuml_ syntax::
      Alice -> Bob: Another authentication Request
      Alice <-- Bob: another authentication Response
 
+.. sidebar:: Just checking
+   
+   Looking at how sidebars are rendered with this theme.
+
 
 .. uml::
    :align: left
