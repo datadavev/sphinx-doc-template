@@ -26,6 +26,7 @@ A sphinx documentation template using a modified version of the sphinx-bootstrap
 
    setup
    diagrams
+   markdown
 
 
 Indices and tables
